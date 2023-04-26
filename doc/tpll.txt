@@ -1,29 +1,39 @@
-*tpll.txt*           plantillas para programas
+*tpll.txt*           plantillas para html y lenguajes de programación
 *'tpll'*
 ===============================================================================
-#
-#
-#
-#
-#
+# Autor: Z3R07-RED (https://github.com/Z3R07-RED)                             #
+# Licencia: None                                                              #
+# Repositorio: https://github.com/Z3R07-RED/tpll-vim                          #
+# Última modificación: 26/04/2023                                             #
 ===============================================================================
 
-CONTENIDO                                                 *tpll-content*
+CONTENIDO                                                  *tpll-content*
 
-Introducción ............................................|tpll-introduccion|
+    1. Introducción ........................................|tpll-introduccion|
 
-Opciones ................................................|tpll-option|
+    2. Opciones ............................................|tpll-option|
 
 
-INTRODUCCIÓN                                              *tpll-introduccion*
+INTRODUCCION                                              *tpll-introduccion*
 
 Este complemento *tpll* genera plantillas para html y también para algunos
 lenguajes de programación como php, python.
 
-OPCIONES                                                  *tpll-option*
+OPCIONES                                                   *tpll-option*
 
+Plantilla para HTML:
 >
-   jjjjjj/nkjj/njjj
+   autocmd BufNewFile *.html 0r ~/.vim/bundle/tpll-vim/templates/html.tpl
+<
+
+Plantilla para PHP:
+>
+   autocmd BufNewFile *.php 0r ~/.vim/bundle/tpll-vim/templates/php.tpl
+<
+
+Plantilla para PYTHON:
+>
+   autocmd BufNewFile *.py 0r ~/.vim/bundle/tpll-vim/templates/python.tpl
 <
 
 ===============================================================================
