@@ -1,0 +1,30 @@
+*tpll.txt*           plantillas para programas
+*'tpll'*
+===============================================================================
+#
+#
+#
+#
+#
+===============================================================================
+
+CONTENIDO                                                 *tpll-content*
+
+Introducción ............................................|tpll-introduccion|
+
+Opciones ................................................|tpll-option|
+
+
+INTRODUCCIÓN                                              *tpll-introduccion*
+
+Este complemento *tpll* genera plantillas para html y también para algunos
+lenguajes de programación como php, python.
+
+OPCIONES                                                  *tpll-option*
+
+>
+   jjjjjj/nkjj/njjj
+<
+
+===============================================================================
+vim:ft=help:et:ts=2:sw=2:sts=2:norl
